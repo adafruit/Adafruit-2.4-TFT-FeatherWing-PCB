@@ -15,6 +15,9 @@ This FeatherWing uses a SPI display so it works fast on each and every one of ou
 This Wing comes fully assembled with dual sockets for your Feather to plug into. You get two sockets per pin so you can plug in wires if you want to connect to Feather pins. Alternatively, each pin has a large square pad on the PCB for direct soldering.
 
 Four mounting holes make it easy to attach this Wing anywhere. We also include a big reset button and an on/off switch connected to the Feather Enable pin (note that the Teensy 3.x Feather does not use the Enable pin so the switch will not do anything with that type).
+
+New! As of Oct 11, 2023 we've made a big redesign to this product: We now use the TSC2007 instead of the discontinued STMPE811 touchscreen controller. The screen and micro SD card are the same but any touchscreen code will need to be updated to use our Arduino or CircuitPython library. We've also updated the reset button to be right-angle and added a STEMMA QT port.
+
 ### License
 
 Adafruit invests time and resources providing this open source design, please support Adafruit and open-source hardware by purchasing products from [Adafruit](https://www.adafruit.com)!
